@@ -1,0 +1,66 @@
+body{
+   background-color: white;
+    font-family: Arial, sans-serif;
+    margin:0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo img {
+    width: 40%;
+}
+.id_logo {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content: flex-end;
+}
+.id_logo img {
+    width:10%;
+    height: 49%;
+    margin: 10px;
+}
+
+.tableHeading{
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px auto; 
+    margin-bottom: 0px;
+  }
+
+thead {
+    background-color: #ec433e;
+    color: rgb(255, 255, 255);
+  }
+
+    td, th {
+    border-bottom: 1px solid #ddd; 
+    padding: 22px; 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  
+
+   .break {
+    font-size: larger;
+  }
+
+  .line {
+    border: 1px solid red;
+    width: 70%;
+    margin: 0px auto; 
+  }
